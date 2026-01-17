@@ -10,9 +10,9 @@ export default function AboutPage() {
       {/* Hero Section */}
       <section className="pt-32 pb-20 px-4 lg:px-8 bg-gradient-to-br from-primary/5 via-background to-accent/5">
         <div className="container mx-auto text-center space-y-6">
-          <h1 className="text-5xl lg:text-6xl font-bold">About AROTOG</h1>
+          <h1 className="text-5xl lg:text-6xl font-bold">About Arcus Remote</h1>
           <p className="text-xl text-muted-foreground font-light max-w-3xl mx-auto leading-relaxed">
-            Your trusted partner in digital transformation and business process excellence
+            We handle your back-office tasks, customer support, and data operations so you can focus on growing your business
           </p>
         </div>
       </section>
@@ -27,8 +27,7 @@ export default function AboutPage() {
               </div>
               <h2 className="text-3xl font-bold">Our Mission</h2>
               <p className="text-muted-foreground font-light leading-relaxed">
-                To empower innovation and streamline processes for businesses worldwide, enabling them to achieve their
-                full potential through exceptional outsourcing solutions.
+                To provide reliable, cost-effective business process outsourcing services that help companies scale without the burden of hiring, training, and managing additional staff. We take care of the operational heavy lifting so our clients can focus on strategy and growth.
               </p>
             </div>
 
@@ -38,36 +37,30 @@ export default function AboutPage() {
               </div>
               <h2 className="text-3xl font-bold">Our Vision</h2>
               <p className="text-muted-foreground font-light leading-relaxed">
-                To be the leading partner in digital transformation, recognized for our commitment to excellence and
-                forward-thinking solutions that drive business success.
+                To become the go-to BPO partner for businesses of all sizes, known for delivering consistent quality, transparent communication, and measurable results. We envision a future where every company can access professional outsourcing services without compromising on service standards.
               </p>
             </div>
           </div>
         </div>
       </section>
 
-      {/* The AROTOG Story */}
+      {/* The Arcus Remote Story */}
       <section className="py-20 px-4 lg:px-8 bg-muted/30">
         <div className="container mx-auto">
           <div className="grid lg:grid-cols-2 gap-12 items-center">
             <div>
-              <img src="/modern-office-building-professional-workspace.jpg" alt="AROTOG office" className="w-full h-[500px] object-cover" />
+              <img src="/modern-office-building-professional-workspace.jpg" alt="Arcus Remote office" className="w-full h-[500px] object-cover" />
             </div>
             <div className="space-y-6">
-              <h2 className="text-4xl font-bold">The AROTOG Story</h2>
+              <h2 className="text-4xl font-bold">The Arcus Remote Story</h2>
               <p className="text-muted-foreground font-light leading-relaxed">
-                AROTOG emerged from a vision to revolutionize business process outsourcing. We
-                recognized that businesses needed more than just cost savings they needed a partner who understood their
-                challenges and could deliver innovative solutions.
+                Arcus Remote was founded when we noticed a gap in the BPO market. Many companies were struggling with expensive outsourcing providers that delivered inconsistent results, or they were trying to handle everything in-house and burning out their teams. We set out to change that.
               </p>
               <p className="text-muted-foreground font-light leading-relaxed">
-                Today, we serve clients across industries, providing comprehensive BPO services that combine
-                cutting-edge technology with human expertise. Our commitment to integrity, collaboration, and relentless
-                pursuit of progress defines everything we do.
+                Starting with a small team handling customer support and data entry for a few clients, we quickly learned what businesses really needed: reliable service, clear communication, and fair pricing. Today, we support companies across healthcare, retail, technology, and professional services with everything from 24/7 customer support to complex data processing workflows.
               </p>
               <p className="text-muted-foreground font-light leading-relaxed">
-                As we continue to grow, our focus remains unchanged: elevating processes and empowering businesses to
-                thrive in an ever evolving digital landscape.
+                What sets us apart is our hands-on approach. Every client gets a dedicated account manager, regular performance reports, and direct access to our team. We're not just a vendor—we're an extension of your operations, committed to your success.
               </p>
             </div>
           </div>
@@ -80,7 +73,7 @@ export default function AboutPage() {
           <div className="text-center mb-16 space-y-4">
             <h2 className="text-4xl font-bold">Our Core Values</h2>
             <p className="text-lg text-muted-foreground font-light max-w-2xl mx-auto leading-relaxed">
-              The principles that guide our every decision and action
+              The foundation of how we deliver exceptional BPO services
             </p>
           </div>
 
@@ -88,33 +81,33 @@ export default function AboutPage() {
             {[
               {
                 icon: Award,
-                title: "Integrity",
-                desc: "We operate with honesty and transparency in all our relationships and commitments",
+                title: "Reliability",
+                desc: "We deliver consistent, accurate work on time, every time. Your operations depend on us, and we take that responsibility seriously.",
               },
               {
                 icon: Lightbulb,
-                title: "Innovation",
-                desc: "We embrace change and continuously seek better ways to serve our clients",
+                title: "Efficiency",
+                desc: "We continuously optimize our processes to deliver faster turnaround times and better results for your business.",
               },
               {
                 icon: Users,
-                title: "Collaboration",
-                desc: "We work as partners with our clients, fostering strong, lasting relationships",
+                title: "Partnership",
+                desc: "We're not just a service provider—we're your operational partner, invested in your long-term success.",
               },
               {
                 icon: Target,
-                title: "Excellence",
-                desc: "We are committed to delivering the highest quality in everything we do",
+                title: "Quality First",
+                desc: "Every task, every interaction, every deliverable meets our high standards. Quality isn't negotiable.",
               },
               {
                 icon: Heart,
-                title: "Client-Centricity",
-                desc: "Our clients' success is our success—we prioritize their needs above all",
+                title: "Transparency",
+                desc: "Clear communication, honest reporting, and no hidden fees. You always know what's happening and what it costs.",
               },
               {
                 icon: TrendingUp,
-                title: "Progress",
-                desc: "We relentlessly pursue improvement and growth for ourselves and our clients",
+                title: "Scalability",
+                desc: "Whether you need one virtual assistant or a full team, we scale with your business needs seamlessly.",
               },
             ].map((value, idx) => (
               <div key={idx} className="glass-card p-8 space-y-4 text-center">

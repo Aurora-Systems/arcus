@@ -11,7 +11,7 @@ const poppins = Poppins({
 })
 
 export const metadata: Metadata = {
-  title: "AROTOG - Elevating Your Process",
+  title: "Arcus Remote - Elevating Your Process",
   description: "Empowering innovation and streamlining processes for businesses worldwide",
   generator: "aurorasystems.co.zw",
  

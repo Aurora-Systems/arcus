@@ -4,7 +4,7 @@
 @custom-variant dark (&:is(.dark *));
 
 :root {
-  /* AROTOG brand colors and theme */
+  /* Arcus Remote brand colors and theme */
   --background: #ffffff;
   --foreground: #07071a;
   --card: rgba(255, 255, 255, 0.7);
@@ -126,7 +126,7 @@
   }
 }
 
-/* Glassmorphism utility classes for AROTOG design */
+/* Glassmorphism utility classes for Arcus Remote design */
 .glass {
   background: rgba(255, 255, 255, 0.05);
   backdrop-filter: blur(10px);

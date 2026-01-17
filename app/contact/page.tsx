@@ -26,7 +26,7 @@ export default function ContactPage() {
             alert("✅ We received your enquiry, expect a call or an email soon!")
             form.current.reset()
         }).catch(() => {
-            alert("⚠️ Message not sent, please try again or send us a message on our email support@aurorasystems.co.zw!")
+            alert("⚠️ Message not sent, please try again or send us a message on our email support@arcusremote.com!")
         }).finally(()=>{
             set_loading(false)
         })
@@ -56,7 +56,7 @@ export default function ContactPage() {
               <div>
                 <h2 className="text-3xl font-bold mb-6">Let's Talk</h2>
                 <p className="text-muted-foreground font-light leading-relaxed">
-                  We're here to answer your questions and discuss how AROTOG can support your business goals. Reach out
+                  We're here to answer your questions and discuss how Arcus Remote can support your business goals. Reach out
                   to us through any of the following channels.
                 </p>
               </div>
@@ -68,8 +68,8 @@ export default function ContactPage() {
                   </div>
                   <div>
                     <h3 className="font-semibold mb-1">Email Us</h3>
-                    <p className="text-sm text-muted-foreground font-light">contact@arotog.com</p>
-                    <p className="text-sm text-muted-foreground font-light">support@arotog.com</p>
+                    <p className="text-sm text-muted-foreground font-light">hello@arcusremote.com</p>
+                    <p className="text-sm text-muted-foreground font-light">support@arcusremote.com</p>
                   </div>
                 </div>
 
@@ -79,7 +79,7 @@ export default function ContactPage() {
                   </div>
                   <div>
                     <h3 className="font-semibold mb-1">Call Us</h3>
-                    <p className="text-sm text-muted-foreground font-light">+1 (681) 221-5728</p>
+                    <p className="text-sm text-muted-foreground font-light">+13048788875</p>
                     <p className="text-sm text-muted-foreground font-light">Mon-Fri, 9:00 AM - 6:00 PM EST</p>
                   </div>
                 </div>
@@ -91,13 +91,7 @@ export default function ContactPage() {
                   <div>
                     <h3 className="font-semibold mb-1">Visit Us</h3>
                     <p className="text-sm text-muted-foreground font-light leading-relaxed">
-                    1111B S Governors Ave
-
-                      <br />
-                      STE 39351
-
-                      <br />
-                      Dover, DE 19904, USA
+                    1111B S Governors Ave STE 39522
                     </p>
                   </div>
                 </div>

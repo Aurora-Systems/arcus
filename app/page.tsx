@@ -27,10 +27,9 @@ export default function HomePage() {
           <div className="grid lg:grid-cols-2 gap-12 items-center">
             <div className="space-y-8">
               <div className="space-y-4">
-                <h1 className="text-5xl lg:text-6xl font-bold text-balance leading-tight">Elevating Your Process</h1>
+                <h1 className="text-5xl lg:text-6xl font-bold text-balance leading-tight">Scale Your Business Without the Overhead</h1>
                 <p className="text-xl text-muted-foreground font-light leading-relaxed">
-                  Empowering innovation and streamlining processes for businesses worldwide, enabling them to achieve
-                  their full potential.
+                  Partner with Arcus Remote to handle your back-office operations, customer support, and data processing needs. Free up your team to focus on what matters most—growing your business.
                 </p>
               </div>
               <div className="flex flex-col sm:flex-row gap-4">
@@ -48,7 +47,7 @@ export default function HomePage() {
             </div>
             <div className="relative h-[400px] lg:h-[500px]">
               <img
-                src="https://arotog.sirv.com/website/121891.jpg"
+                src="https://cdn.clipond.com/Arcus/41941.jpg"
                 alt="Professional team collaboration"
                 className="w-full h-full object-cover"
               />
@@ -128,17 +127,17 @@ export default function HomePage() {
               </div>
             </div>
             <div className="relative h-[500px]">
-              <img src="https://arotog.sirv.com/website/home_two.jpg" alt="Business solutions" className="w-full h-full object-cover" />
+              <img src="https://cdn.clipond.com/Arcus/4093.jpg" alt="Business solutions" className="w-full h-full object-cover" />
             </div>
           </div>
         </div>
       </section>
 
-      {/* Why AROTOG Section */}
+      {/* Why Arcus Remote Section */}
       <section className="py-20 px-4 lg:px-8 bg-secondary text-secondary-foreground">
         <div className="container mx-auto">
           <div className="text-center mb-16 space-y-4">
-            <h2 className="text-4xl font-bold">Why Choose AROTOG</h2>
+            <h2 className="text-4xl font-bold">Why Choose Arcus Remote</h2>
             <p className="text-lg text-secondary-foreground/80 font-light max-w-2xl mx-auto leading-relaxed">
               Your trusted partner in digital transformation and business excellence
             </p>
@@ -176,7 +175,7 @@ export default function HomePage() {
           </div>
 
           <div className="mt-16">
-            <img src="https://arotog.sirv.com/website/home_three.jpg" alt="AROTOG team" className="w-full h-[400px] object-cover" />
+            <img src="https://cdn.clipond.com/Arcus/114693.jpg" alt="Arcus Remote team" className="w-full h-[400px] object-cover" />
           </div>
         </div>
       </section>
@@ -191,25 +190,31 @@ export default function HomePage() {
             </p>
           </div>
 
-          <div className="grid md:grid-cols-3 gap-8">
+          <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
             {[
               {
-                name: "Sarah Johnson",
-                role: "Doctor, Dentine Health",
+                name: "David Martinez",
+                role: "CEO, TechFlow Solutions",
                 quote:
-                  "AROTOG transformed our operations. Their expertise and dedication have been invaluable to our growth.",
+                  "Arcus Remote handles all our customer inquiries and data entry. We've cut operational costs by 40% while improving response times. Game changer for our startup.",
               },
               {
-                name: "Michael Chen",
-                role: "Operations Director, Alpha Venures,LLC",
+                name: "Jennifer Park",
+                role: "VP Operations, GreenLeaf Retail",
                 quote:
-                  "Outstanding service quality and professionalism. They truly understand business needs and deliver results.",
+                  "Their virtual assistants manage our scheduling and administrative tasks flawlessly. We've been able to expand to three new markets without hiring additional staff.",
               },
               {
-                name: "Emily Rodriguez",
-                role: "Founder, Home from Home",
+                name: "Robert Thompson",
+                role: "Founder, CloudSync Analytics",
                 quote:
-                  "The best outsourcing partner we've worked with. Reliable, efficient, and always exceeding expectations.",
+                  "The data processing team at Arcus Remote is incredibly accurate and fast. They've processed over 50,000 records for us with zero errors. Highly recommend their services.",
+              },
+              {
+                name: "Lisa Anderson",
+                role: "Director, MedCare Services",
+                quote:
+                  "We needed 24/7 customer support but couldn't afford a full in-house team. Arcus Remote provided the perfect solution—professional, responsive, and cost-effective.",
               },
             ].map((testimonial, idx) => (
               <div key={idx} className="glass-card p-8 space-y-4">
@@ -234,7 +239,7 @@ export default function HomePage() {
         <div className="container mx-auto text-center space-y-8">
           <h2 className="text-4xl lg:text-5xl font-bold text-balance">Ready to Elevate Your Business?</h2>
           <p className="text-lg text-secondary-foreground/80 font-light max-w-2xl mx-auto leading-relaxed">
-            Let's discuss how AROTOG can transform your operations and drive success
+            Let's discuss how Arcus Remote can transform your operations and drive success
           </p>
           <Link href="/contact">
             <Button size="lg" className="bg-accent text-accent-foreground hover:bg-accent/90">
