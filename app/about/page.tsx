@@ -49,7 +49,7 @@ export default function AboutPage() {
         <div className="container mx-auto">
           <div className="grid lg:grid-cols-2 gap-12 items-center">
             <div>
-              <img src="/modern-office-building-professional-workspace.jpg" alt="Arcus Remote office" className="w-full h-[500px] object-cover" />
+              <img src="https://cdn.clipond.com/Arcus/125823.jpg" alt="Arcus Remote office" className="w-full h-[500px] object-cover" />
             </div>
             <div className="space-y-6">
               <h2 className="text-4xl font-bold">The Arcus Remote Story</h2>

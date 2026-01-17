@@ -10,7 +10,7 @@ export default function ServicesPage() {
       icon: Headphones,
       title: "Customer Support Outsourcing",
       description:
-        "Deliver exceptional customer experiences with our 24/7 professional support team. We handle inquiries, resolve issues, and build lasting customer relationships on your behalf.",
+        "Professional 24/7 customer support services. We handle customer inquiries, resolve issues, and provide support across multiple channels.",
       benefits: [
         "Multi-channel support (phone, email, chat, social media)",
         "Trained customer service professionals",
@@ -23,7 +23,7 @@ export default function ServicesPage() {
       icon: Database,
       title: "Data Processing & Management",
       description:
-        "Transform raw data into actionable insights with our accurate and efficient data processing services. We ensure data integrity while reducing your operational burden.",
+        "Accurate and efficient data processing services. We handle data entry, validation, database management, and data analysis.",
       benefits: [
         "Data entry and validation services",
         "Database management and maintenance",
@@ -36,7 +36,7 @@ export default function ServicesPage() {
       icon: FileText,
       title: "Back-Office Support",
       description:
-        "Streamline your administrative operations with our comprehensive back-office support. Focus on core business activities while we handle essential but time-consuming tasks.",
+        "Comprehensive back-office support services. We handle administrative tasks, document processing, and operational support.",
       benefits: [
         "Document management and processing",
         "Administrative task automation",
@@ -49,7 +49,7 @@ export default function ServicesPage() {
       icon: MessageSquare,
       title: "Virtual Assistant Services",
       description:
-        "Boost productivity with dedicated virtual assistants who handle your daily tasks. Get professional support without the overhead of full-time employees.",
+        "Dedicated virtual assistant services. We provide support for daily tasks, calendar management, research, and coordination.",
       benefits: [
         "Calendar and email management",
         "Research and report preparation",
@@ -69,7 +69,7 @@ export default function ServicesPage() {
         <div className="container mx-auto text-center space-y-6">
           <h1 className="text-5xl lg:text-6xl font-bold">Our Services</h1>
           <p className="text-xl text-muted-foreground font-light max-w-3xl mx-auto leading-relaxed">
-            Comprehensive business process outsourcing solutions designed to drive efficiency and growth
+            Business process outsourcing solutions for customer support, data processing, back-office operations, and virtual assistance
           </p>
         </div>
       </section>
@@ -120,7 +120,7 @@ export default function ServicesPage() {
           <div className="text-center mb-16 space-y-4">
             <h2 className="text-4xl font-bold">Our Process</h2>
             <p className="text-lg text-secondary-foreground/80 font-light max-w-2xl mx-auto leading-relaxed">
-              A proven methodology for seamless integration and exceptional results
+              Our methodology for seamless integration and results
             </p>
           </div>
 
@@ -129,22 +129,22 @@ export default function ServicesPage() {
               {
                 step: "01",
                 title: "Discovery",
-                desc: "We analyze your needs and develop a customized solution strategy",
+                desc: "We analyze your needs and develop a solution strategy",
               },
               {
                 step: "02",
                 title: "Strategy",
-                desc: "Our team creates a detailed implementation plan aligned with your goals",
+                desc: "We create an implementation plan aligned with your goals",
               },
               {
                 step: "03",
                 title: "Implementation",
-                desc: "We execute the plan with precision, ensuring smooth transition",
+                desc: "We execute the plan and ensure smooth transition",
               },
               {
                 step: "04",
                 title: "Reporting",
-                desc: "Continuous monitoring and detailed analytics keep you informed",
+                desc: "Continuous monitoring and analytics keep you informed",
               },
             ].map((phase, idx) => (
               <div key={idx} className="glass-dark p-6 space-y-4 text-center">
